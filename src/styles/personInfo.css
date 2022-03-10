@@ -1,0 +1,125 @@
+a:link {
+  color: peru;
+}
+
+div h1{
+
+  color: rgb(0, 0, 0);  
+  font-weight: bold;
+}
+
+.Personal {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Personal > img {
+  justify-content: center;
+  align-content: center;
+}
+
+.Personal > p {
+  text-align: justify;
+  margin-left: 0%;
+  width: 100%;
+  color: rgb(0, 0, 0);  
+  font-weight: 600;
+}
+
+#grid-item {
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 1px;
+  width: 210px;
+  overflow: hidden;
+  margin: 2px;
+  display: inline-block;
+
+  
+}
+
+#grid-item:hover,
+#grid-item:focus,
+#grid-item:hover figcaption {
+  color: #0275d8;
+  text-decoration-color: #0275d8;
+  transform: scale(1.04);
+}
+
+figure {
+  width: 210px;
+}
+
+div.grid-item figure img {
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  height: 306px;
+  width: 210px;
+}
+
+figcaption {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+
+  padding: 0 1px;
+  width: 210px;
+  margin-top: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);  
+  font-weight: 600;
+}
+
+.grid-item p{
+  color: rgb(0, 0, 0);  
+  font-weight: 600;
+}
+
+.Personal > a:link b{
+  color: rgb(0, 0, 0);  
+  font-weight: bold;
+}
+
+.MovList h2{
+  color: rgb(0, 0, 0);  
+  font-weight: 600;
+}
+
+@media (max-width: 414px) {
+
+  .Personal img {
+    margin: 0 10px;
+  }
+
+  .Personal {
+    font-size: 15px;
+  }
+
+  .MovList #grid-item {
+    margin-left: 20%;
+  }
+
+  figure {
+    width: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .Personal > img {
+    margin: 0 50%;
+  }
+
+  figure {
+    width: 0px;
+  }
+  
+  .MovList {
+    margin-left: 10px;
+  }
+}
