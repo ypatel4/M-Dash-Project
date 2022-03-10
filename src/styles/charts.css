@@ -1,0 +1,16 @@
+div.chart-container {
+  width: 180px;
+}
+
+@media (min-width: 580px) and (max-width: 769px) {
+  .chart {
+    width: 100px;
+    justify-content: space-evenly;
+  }
+  #r-chart {
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+    display: inline-block;
+  }
+}
