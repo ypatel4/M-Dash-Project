@@ -1,0 +1,120 @@
+.App,
+h1 {
+  text-align: center;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+
+#root {
+  color: rgb(240, 248, 255);
+  background: url("./background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+* {
+  border: 1px;
+  justify-content: space-evenly;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgb(0, 0, 102);
+  height: 50px;
+  justify-content: space-between;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.nav-link {
+  display: block;
+  text-align: left;
+  padding: 5px;
+  border-right: 5px;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  padding: 0 5 0 0;
+}
+
+.current {
+  color: rgb(204, 255, 255);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+
+div.grid-item a {
+  padding: 0;
+}
+
+.active {
+  padding-right: 1px;
+}
+
+#nav {
+  justify-content: space-evenly;
+}
+
+
+
+@media (min-width: 1089px) and (max-width: 1265px) {
+  div .form-group #searchBar{
+      width: 100px; 
+      margin-top: 2px;
+
+  }
+  
+}
+
+@media (min-width: 990px) and (max-width: 1088px) {
+
+  div #nav{
+    max-width: 540px;
+  }
+
+  div #nav a{
+    padding: 1px;
+    
+    text-align: center;
+  }
+
+  div .form-group #searchBar{
+    width: 100px; 
+    margin-top: 2px;
+  }
+  
+  div button .btn btn-outline-light{
+    width: 50px;
+}
+  form #search-form{
+    margin: 0;
+  }
+}
