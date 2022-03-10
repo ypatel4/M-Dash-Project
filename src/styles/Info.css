@@ -1,0 +1,239 @@
+.container {
+  border: 1px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container > h2 {
+  text-align: center;
+  padding-bottom: 5px;
+  color: rgb(156, 107, 58);
+  font-weight: bold;
+}
+
+.box1 {
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.Box1a {
+  display: inline-block;
+  padding-top: 22px;
+  text-align: justify;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  word-spacing: 0;
+  text-align: justify;
+}
+
+.Box1a > p {
+  width: 1000px;
+  color: rgb(0, 0, 0);
+   
+}
+
+.Box1a > p a:link{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.box1 img {
+  margin-right: 20px;
+}
+
+p {
+  margin: 0px;
+  width: 600px;
+}
+
+.box2 {
+  display: flex;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.box2 > .chart-container > label {
+
+    color: rgb(0, 0, 0);  
+    font-weight: 600;
+}
+
+
+.TMDB-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: rgb(0, 0, 0);  
+  font-weight: 600;
+  
+}
+
+div .TMDB-box img{
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.TMDB-box2 {
+  width: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+  color: rgb(0, 0, 0);  
+  font-weight: 600;
+}
+
+.TMDB-box2 > a:link b {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+@media (max-width: 414px) {
+
+  .box1 {
+    justify-content: space-evenly;
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .box1 img {
+    width: 100px;
+    height: 110px;
+    margin: 0 50%;
+  }
+
+  .Box1a p {
+    width: 100%;
+    display: block;
+  }
+
+  .chart-container canvas {
+    width: 100px;
+    height: 120px;
+    justify-content: space-between;
+  }
+
+  canvas #ratingsChart{
+    width: 120px;
+    height: 140px;
+  }
+
+  .TMDB-box{
+    justify-content: space-evenly;
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .TMDB-box img{
+    width: 100px;
+    height: 110px;
+    
+  }
+
+  .TMDB-box p {
+    width: 100%;
+    display: block;
+  }
+
+  .TMDB-box2 p {
+    width: 100%;
+    display: block;
+  }
+
+
+}
+@media (max-width: 768px) {
+
+  .box1 p {
+    width: 100%;
+  }
+
+  .box1 {
+    justify-content: space-evenly;
+    font-size: 15px;
+    max-width: 100%;
+    margin-left: 30%;
+  }
+
+  img {
+    width: 170px;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .box2 {
+    padding-bottom: 80px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .Box1a p {
+    width: 100%;
+    display: block;
+  }
+
+  .TMDB-box{
+    justify-content: space-evenly;
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .TMDB-box img{
+    width: 130px;
+    height: 150px;
+    
+  }
+
+  .TMDB-box p {
+    width: 100%;
+    display: block;
+  }
+
+  .TMDB-box2 p {
+    width: 100%;
+    display: block;
+  }
+
+
+
+}
+@media (max-width: 1024px) {
+
+  .box1 {
+    justify-content: space-evenly;
+    font-size: 15px;
+    max-width: 100%;
+    margin: 0 30%;
+  }
+
+  .box1 p {
+    max-width: 100%;
+  }
+
+  .Box1a p {
+    width: 100%;
+    display: block;
+  }
+
+}
+@media (min-width: 1025px) {
+
+  .box1 {
+    justify-content: space-evenly;
+    font-size: 15px;
+    max-width: 100%;
+    margin: 0 30%;
+  }
+  
+}
