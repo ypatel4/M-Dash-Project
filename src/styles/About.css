@@ -1,0 +1,28 @@
+.About {
+  padding-bottom: 45px;
+  height: 100vh;
+  margin-top: 45px;
+}
+
+.About .info p {
+    padding-bottom:12px;
+}
+
+.info > p{
+    text-align: justify;
+    width: 100%;
+    color: rgb(51, 153, 255);  
+    font-weight: 500;
+}
+
+.description h3{
+  color: rgb(0, 0, 0);  
+  font-weight: bold;
+}
+
+.description > p{
+    text-align: justify;
+    width: 100%;
+    color: rgb(51, 153, 255);  
+    font-weight: 500;
+}
